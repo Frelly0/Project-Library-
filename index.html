@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+            <div class="board">
+                <div class="head-top">
+                    <h1>My Book Store</h1>
+                    <button type="submit" id="adding">Add New Book</button>
+                </div>
+                <hr>
+                <div class="show_book">
+                        <!-- <li class="line">
+                            <p><strong>Title: <br></strong>The Lord of the Rings</p>
+                            <p><strong>Author: <br></strong>-J.R.R. Tolkien-</p>
+                            <p><strong>Pages: <br></strong> 360</p>
+                            <button id="read">Read</button> 
+                            <button id="delete">Delete</button>
+                        </li>  -->
+                </div>
+            </div>
+
+            <div class="pop-up-box" id="userInput" style="display: none;">
+                <form id="form" class="form">
+                    <img src="./close.png" class="img">
+                    <label>Title:
+                    <input type="text" name="" id="title" placeholder="Add Tittle">
+                    </label>
+                    <label>Author:
+                    <input type="text" name="" id="author" placeholder="Add Author Name">
+                    </label>
+                    <label>Pages:
+                    <input type="number" name="" id="pages" placeholder="Add Pages">
+                    </label>
+                    <button id="newbook">Add Book</button>
+                </form>  
+            </div>
+
+        </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

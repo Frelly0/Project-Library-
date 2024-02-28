@@ -1,0 +1,115 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+}
+
+button {
+    display: block;
+    background: #dd7805;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #9e5d13;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #bbbbbb;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    /* width: 60%; */
+    border-radius: 5px;
+}
+
+.board .head-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.board .show_book {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap: 15px;
+    
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 1px solid #9e5d13;
+}
+
+.container .pop-up-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0cf5;
+    width: 100%;
+    height: 100vh;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #bbbbbb;
+    padding: 30px;
+    gap: 20px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #9e5d13;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+}
+
+.img {
+    position: absolute;
+    display: flex;
+    right: 10;
+    top: 10;
+    width: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
